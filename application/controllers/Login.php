@@ -37,6 +37,6 @@ class Login extends CI_Controller {
 	public function logout()
 	{
 		$this->session->sess_destroy();
-		redirect("http://13.209.140.99/index.php/login");
+		redirect("login");
 	}
 }

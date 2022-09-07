@@ -16,7 +16,7 @@ class Main extends CI_Controller
 	{
 		$user = $this->session->userdata('user');
 		if ($user == null) {
-			redirect("http://13.209.140.99/index.php/login");
+			redirect("login");
 		} else {
 			$this->load->view('head');
 			$this->load->view('main');
