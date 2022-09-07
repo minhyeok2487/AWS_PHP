@@ -67,3 +67,4 @@ ERROR - 2022-09-07 04:20:24 --> Severity: error --> Exception: Call to a member 
 ERROR - 2022-09-07 04:29:12 --> Severity: Warning --> Undefined property: Main::$response /var/www/html/php/application/controllers/Main.php 19
 ERROR - 2022-09-07 04:29:12 --> Severity: error --> Exception: Call to a member function redirect() on null /var/www/html/php/application/controllers/Main.php 19
 ERROR - 2022-09-07 05:08:02 --> 404 Page Not Found: Setupcgi/index
+ERROR - 2022-09-07 05:15:51 --> 404 Page Not Found: Admin/config.php
