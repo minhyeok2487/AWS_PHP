@@ -1,0 +1,350 @@
+.myButton {
+	box-shadow: inset 0px 1px 0px 0px #efdcfb;
+	background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color: #dfbdfa;
+	border-radius: 6px;
+	border: 1px solid #c584f3;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #9752cc;
+}
+
+.myButton:hover {
+	background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color: #bc80ea;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+input:focus {
+	outline: none !important;
+}
+
+.page_container {
+	width: 100vw;
+	height: 100vh;
+	background: #edebee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.shadow {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login_form_container {
+	background: #ffffff;
+	width: 860px;
+	height: 540px;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 10px black;
+	border-radius: 10px;
+}
+
+.textbox {
+	width: 50%;
+	border-radius: 10px 0px 0px 10px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: right;
+	color: white;
+	background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%, rgba(32, 124, 229, 1) 100%);
+}
+
+.textbox h1 {
+	color: white;
+	width: 100%;
+	text-align: right;
+	opacity: 0.9;
+	margin-bottom: 30px;
+}
+
+.textbox p {
+	font-size: 12px;
+	text-align: right;
+	opacity: 0.8;
+	line-height: 2;
+}
+
+.login_form_box {
+	border-radius: 0px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	background: rgb(255, 255, 255);
+}
+
+.login_input_container {
+	padding-top: 145px;
+	width: 300px;
+}
+
+.login_input_container .login_input_wrap {
+	width: 300px;
+	height: 45px;
+	margin-top: 20px;
+	border-radius: 2px;
+	border-bottom: solid 2px rgba(32, 124, 229, 1);
+}
+
+.login_input_container .login_input_wrap input {
+	background: none;
+	border: none;
+	line-height: 45px;
+	padding-left: 10px;
+	width: 267px;
+}
+
+.login_btn_wrap {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+	cursor: pointer;
+	width: 95px;
+	height: 35px;
+	color: white;
+	border: 0;
+	border-radius: 4px;
+	background: linear-gradient(162deg, rgba(105, 163, 255, 1) 0%, rgba(43, 125, 254, 1) 50%, rgba(32, 124, 229, 1) 100%);
+	font-weight: bold;
+}
+
+.login_btn_wrap a {
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 11px;
+	color: gray;
+}
+
+.info_box {
+	width: 1500px;
+	margin: 15px 0 0 15px;
+}
+
+.info_box .btn {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+/*---------------------------------------------------*/
+/*------------------회원가입 페이지------------------*/
+.signup_page {
+	width: 100vw;
+	background: #edebee;
+	display: flex;
+	justify-content: center;
+}
+
+.signup_form {
+	background: #FFFFFF;
+	width: 580px;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 10px black;
+	border-radius: 10px;
+}
+
+.signup_textbox {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%,
+			rgba(32, 124, 229, 1) 100%);
+}
+
+.signup_form .input_field {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: none;
+}
+
+.input_field .input_field_info {
+	color: #168;
+	background: #f0f6f9;
+	width: 150px;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-weight: 800;
+	padding: 15px;
+	margin: 5px 5px 5px 15px;
+}
+
+.input_field input[type=text],
+.input_field input[type=password] {
+	border: 1px solid #ddd;
+	width: 65%;
+	height: 45px;
+	text-align: center;
+	font-weight: 800;
+	margin-right: 10px;
+}
+
+.input_field textarea {
+	border: 1px solid #ddd;
+	width: 65%;
+	height: 45px;
+	font-weight: 900;
+	margin-right: 10px;
+}
+
+.input_field select {
+	border: 1px solid #ddd;
+	width: 65%;
+	height: 45px;
+	text-align: center;
+	font-weight: 900;
+	margin-right: 10px;
+}
+
+.input_field button {
+	margin: 5px;
+	cursor: pointer;
+}
+
+.input_password_check {
+	margin: 0;
+	width: 15px;
+	height: 70%;
+	border: 10px solid RED;
+	border-radius: 50%;
+}
+
+.signup_form .input_password_reg {
+	width: 90%;
+	height: 120px;
+	border: none;
+	background: #EEEEEE;
+	margin: 0 auto;
+}
+
+.input_password_reg p {
+	padding-left: 40px;
+	padding-top: 10px;
+	line-height: 1.6;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.input_goods_table {
+	width: 65%;
+	padding: 3px;
+	margin-right: 25px;
+	margin-left: 5px;
+	text-align: left;
+	font-size: 0.85em;
+	font-weight: bold;
+}
+
+.input_goods_table th {
+	font-size: 16px;
+	background: #DDDDDD;
+	text-align: center;
+}
+
+.input_goods_table td {
+	height: 25px;
+}
+
+.signup_btn {
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: block;
+	background: linear-gradient(162deg, rgba(105, 103, 255, 1) 0%,
+			rgba(43, 75, 254, 1) 50%, rgba(32, 64, 229, 1) 100%);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.input_ip_field {
+	width: 90%;
+	height: auto;
+	border: none;
+	margin: 0 auto;
+	margin-left: 150px;
+	margin-bottom: 5px;
+	padding: 7px;
+
+}
+
+.input_ip_field .input_ip_type {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: none;
+	margin-bottom: 7px;
+}
+
+.input_ip_type button {
+	width: 60px;
+	height: 30px;
+	margin: 7px;
+	background: linear-gradient(162deg, rgba(205, 103, 255, 1) 0%,
+			rgba(143, 75, 254, 1) 50%, rgba(132, 64, 229, 1) 100%);
+	cursor: pointer;
+}
+
+.input_ip_type input {
+	margin: 7px;
+}
+
+.input_ip_type .ip_check {
+	margin-top: 2px;
+	margin-left: 7px;
+	width: 2px;
+	height: 2px;
+	border: 7px solid RED;
+	border-radius: 50%;
+}
+
+.input_ip {
+	margin-left: 7px;
+}
+
+.input_ip input[type='text'] {
+	border: 1px solid #ddd;
+	width: 45%;
+	height: 35px;
+	text-align: center;
+	font-weight: 600;
+	background: #EEEEEE;
+}
